@@ -9,5 +9,8 @@ int main() {
     else if(a!='a'||'A'||'e'||'E'||'I'||'i'||'o'||'O'||'u'||'U'){
         printf("Consonent");
     }
+    else{
+        printf("Digit");
+    }
     return 0;
 }
