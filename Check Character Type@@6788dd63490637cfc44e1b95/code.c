@@ -3,10 +3,10 @@
 int main() {
     char a;
     scanf("%c",a);
-    if(a=='a'||'A'||'e'||'E'||'I'||'i'||'o'||'O'||'u'||'U'){
+    if(a=='a'||a=='A'||a=='e'||a=='E'||a=='I'||a=='i'||a=='o'||a=='O'||a=='u'||a=='U'){
         printf("Vowel");
     }
-    else if(a!='a'||'A'||'e'||'E'||'I'||'i'||'o'||'O'||'u'||'U'){
+    else if((a>='a' && a>='z')||(a>='A' && a<='Z')){
         printf("Consonent");
     }
     else{
