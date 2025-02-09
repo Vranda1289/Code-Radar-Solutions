@@ -15,6 +15,5 @@ else if(a=='Y'){
 else{
     printf("Invalid input");
 }
-}
     return 0;
 }
