@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a,b;
-    scanf("%d%d",&a,&b);
+    char a,b;
+    scanf("%c%c",&a,&b);
     if((a=='+' && b=='+')||(a=='-' && b=='-')){
         printf("Same Sign");
     }
