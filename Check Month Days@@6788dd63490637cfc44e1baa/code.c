@@ -9,11 +9,11 @@ int main() {
     else if(a==2){
         printf("28");
     }
+    else if(a<=0 || a>12){
+        printf("Invalid");
+    }
     else{
-        if(a>=0 || a<12){
-            printf("Invalid");
-        }
-    printf("30");
+        printf("30");
     }
     return 0;
 }
