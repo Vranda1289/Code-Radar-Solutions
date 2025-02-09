@@ -15,7 +15,12 @@ int main() {
         printf("%d\n",a*b);
     }
     else if(c=='/'){
-        printf("%d\n",a/b);
+        if(b==0){
+            printf("error");
+        }
+        else{
+           printf("%d\n",a/b); 
+        }
     }
     else {
         printf("Error:Invalid operator\n");
