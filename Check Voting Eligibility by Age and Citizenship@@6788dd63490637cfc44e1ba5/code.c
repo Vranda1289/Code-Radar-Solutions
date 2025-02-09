@@ -9,12 +9,6 @@ int main() {
     else{
         printf("Not Eligible");
     }
-    scanf("%d",&b);
-    if(b==1){
-        printf("Citizen");
-    }
-    else{
-        printf("Non-citizen");
-    }
+    
     return 0;
 }
