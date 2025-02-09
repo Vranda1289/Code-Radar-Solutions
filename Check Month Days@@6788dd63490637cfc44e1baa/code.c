@@ -10,7 +10,10 @@ int main() {
         printf("28");
     }
     else{
-        printf("30");
+        if(a>=0 || a<12){
+            printf("Invalid");
+        }
+    printf("30");
     }
     return 0;
 }
