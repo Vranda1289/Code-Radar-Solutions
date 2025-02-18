@@ -1,27 +1,27 @@
 #include <stdio.h>
-int main() {
+int main(){
     int a,b;
     char c;
-    scanf("%d %d %c",&a,&b,&c);
-    if (c=='+'){
-        printf("%d\n",a+b);  
+    scanf("%d%d%c",&a,&b,&c);
+    if(c=='+'){
+        printf("%d",a+b);
     }
-    else if (c=='-'){
-        printf("%d\n",a-b);
+    else if(c=='-'){
+        printf("%d",a-b);
     }
-    else if (c=='*'){
-        printf("%d\n",a*b);
+    else if(c=='*'){
+        printf("%d",a*b);
     }
-    else if (c=='/'){
-        if (b==0){
-            printf("error");
+    else if(c=='/'){
+        if(b==0){
+            printf("Error")
         }
         else{
-            printf("%d\n",a/b);
-        } 
-    }
+            printf("%d",a/b);
+        }
     else{
-        printf("Error: Invalid operator/n");
+        printf("Invalid operator");
+    }    
     }
     return 0;
 }
