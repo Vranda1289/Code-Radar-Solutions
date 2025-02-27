@@ -3,7 +3,7 @@ int main()
 {
 int r,c,row,column;
 scanf("%d",&row);
-for(r=row; r>=row; r--){
+for(r=row; r>=1; r--){
     for(c=1; c<=r; c++ ){
         printf("* ");
     }
