@@ -1,16 +1,14 @@
 #include <stdio.h>
 int main()
 {
-int r,c,row,column;
-scanf("%d",&row);
-column=row;
-for(r=1; r<=row; r++){
-    for(c=1; c<=column; c++ ){
+int n;
+scanf("%d",&n);
+for(int i=1; i<=n; i++){
+    for(int i=1; i<=n; i++){
         printf("* ");
     }
-    printf("\n");
+    printf("\n ");
 }
-
 
   return 0;
 
